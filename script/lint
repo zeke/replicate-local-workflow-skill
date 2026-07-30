@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+
+npx -y skills-ref validate replicate-local-workflow
+node --check replicate-local-workflow/scripts/save-prediction.mjs
+node --check test/save-prediction.test.mjs
+git diff --check
