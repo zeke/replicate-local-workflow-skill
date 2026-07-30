@@ -1,6 +1,6 @@
 ---
 name: replicate-local-workflow
-description: Run Replicate models and preserve their outputs as well-organized local files. Use when finding, comparing, or running Replicate models; generating batches of images, video, audio, or other media; downloading Replicate prediction outputs; naming files with prediction provenance; embedding metadata in generated images; or reviewing and archiving local model results.
+description: Run Replicate models and manage their outputs on the local machine. Use whenever a user asks to run, test, or compare a Replicate model; provides a replicate.com model or prediction URL; generates one or many Replicate images, videos, audio files, or other predictions; saves or downloads Replicate outputs locally; organizes generated media; preserves prediction IDs and manifests; embeds provenance metadata; builds galleries or contact sheets; retries or resumes batches; or commits Replicate outputs to Git.
 compatibility: Requires internet access and Node.js. Replicate MCP Code Mode optionally requires Deno. Replicate API access requires REPLICATE_API_TOKEN. Image provenance uses npx media-provenance.
 metadata:
   author: zeke
