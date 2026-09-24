@@ -41,3 +41,7 @@ The included downloader invokes `npx media-provenance` automatically for support
 ## Development
 
 See [AGENTS.md](AGENTS.md).
+
+## More Skills
+
+Browse more skills at [zeke/skills](https://github.com/zeke/skills).
